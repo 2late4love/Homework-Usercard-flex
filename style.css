@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    background: rgb(58,116,180);
+    background: linear-gradient(90deg, rgba(58,116,180,1) 0%, rgba(0,73,12,1) 50%, rgba(0,39,92,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.usercard {
+    box-sizing: border-box;
+    padding: 4.4em 2.8em;
+    width: 630px;
+    height: 390px;
+    border-radius: 10px;
+    background: rgb(136,194,241);
+    background: linear-gradient(90deg, rgba(136,194,241,1) 0%, rgba(61,149,206,1) 50%, rgba(46,109,150,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;       /* !!!!! */
+}
+
+.first-par {
+    font-size: 1.6em;
+}
+
+.how-much {
+    font-weight: 800;
+    font-size: 3em;
+    margin: 3.2rem 0 6rem;
+}
+
+.second-par {
+    font-size: 1.6em;
+}
+
+svg {
+    /* position: absolute;
+    top: 4.2rem;
+    right: 2.8rem; */
+    fill: white;
+    width: 3em;
+    height: 3em;
+    margin-left: 17.2em;   /* -_- */
+}
+
+
+/* Bulbashky */
+.first-par::after {
+    position: absolute;
+    top: -7rem;
+    right: -8rem;
+    width: 380px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 50%;
+    content: '';
+}
+
+.second-par::after {
+    position: absolute;
+    top: 10rem;
+    right: -3rem;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 50%;
+    content: '';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ........................................... */
+body {
+    overflow: hidden;
+}
+
+.duck {
+    position: absolute;
+    top: -5em;
+    right: -6em;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.uah {
+    position: absolute;
+    top: 6em;
+    left: 2em;
+    width: 130px
+}
